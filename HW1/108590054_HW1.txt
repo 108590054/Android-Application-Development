@@ -1,0 +1,16 @@
+Homework 1
+1.What is the name of the layout file for the main activity?
+Ans:activity_main.xml
+
+2.What is the name of the string resource that specifies the application's name?
+Ans:app_name
+
+3.Which tool do you use to create a new emulator?
+Ans:AVD Manager
+
+4.Assume that your app includes this logging statement:
+
+Log.i("MainActivity", "MainActivity layout is complete");
+
+You see the statement "MainActivity layout is complete" in the Logcat pane if the Log level menu is set to which of the following?
+Ans:Verbose,Debug,Info
