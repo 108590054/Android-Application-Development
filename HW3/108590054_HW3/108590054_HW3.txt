@@ -1,9 +1,25 @@
-Homework 3
+Homework 3-1
 1.How many views can you use within a ScrollView? Choose one:
-Ans:One view only
+Ans:One view or one view group
 
 2.Which XML attribute do you use in a LinearLayout to show views side by side? Choose one:
-Ans:android:layout_width="wrap_content"
+Ans:android:orientation="horizontal"
 
 3.Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view? Choose one:
-Ans:android:layout_width="match_parent"
+Ans:android:layout_width="200dp"
+
+Homework 3-2
+1.What changes are made when you add a second Activity to your app by choosing File > New > Activity and an Activity template?
+Ans:The second Activity XML layout file is created and a Java class added. You still need to define the class signature.
+
+2.What happens if you remove the android:parentActivityName and the <meta-data> elements from the second Activity declaration in the AndroidManifest.xml file?
+Ans:The second Activity no longer appears when you try to start it with an explicit Intent.
+
+3.Which constructor method do you use to create a new explicit Intent?
+Ans:new Intent(Context context, Class<?> class)
+
+4.In the HelloToast app homework, how do you add the current value of the count to the Intent?
+Ans:As an Intent extra
+
+5.In the HelloToast app homework, how do you display the current count in the second "Hello" Activity?
+Ans:All of the above
