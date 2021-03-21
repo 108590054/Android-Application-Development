@@ -1,0 +1,22 @@
+Homework 4-1
+1.If you run the homework app before implementing onSaveInstanceState(), what happens if you rotate the device? Choose one:
+Ans:The counter is reset to 0, but the contents of the EditText is preserved.
+
+2.What Activity lifecycle methods are called when a device-configuration change (such as rotation) occurs? Choose one:
+Ans:Android shuts down your Activity by calling onPause(), onStop(), and onDestroy(). Your code must restart the Activity.
+
+3.When in the Activity lifecycle is onSaveInstanceState() called? Choose one:
+Ans:onSaveInstanceState() is called before the onStop() method.
+
+4.Which Activity lifecycle methods are best to use for saving data before the Activity is finished or destroyed? Choose one:
+Ans:onPause() or onStop()
+
+Homework 4-2
+1.Which constructor method do you use to create an implicit Intent to launch a camera app?
+Ans:new Intent(String action)
+
+2.When you create an implicit Intent object, which of the following is true?
+Ans:All of the above.
+
+3.Which Intent action do you use to take a picture with a camera app?
+Ans:Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
