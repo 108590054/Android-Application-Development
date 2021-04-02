@@ -6,7 +6,7 @@ Ans:Tests that are compiled and run entirely on your local machine with the Java
 Ans:com.example.android.SimpleCalcTest (test)
 
 3.Which annotation is used to mark a method as an actual test? Choose one:
-Ans:@RunWith(JUnit4.class)
+Ans:@Test
 
 Homework 5-2
 1.How do you add images to an Android Studio project? Choose one:
@@ -16,4 +16,4 @@ Ans:Copy the image files into your project's drawable folder.
 Ans:Add the android:onClick attribute to the ImageView in the layout and use it to call the click handler in the Activity.
 
 3.Which rule applies to a click handler called from the attribute in the layout? Choose one:
-Ans:The click handler must customize the View.OnClickListener class and override its click handler to perform some action.
+Ans:The click handler method must be public, return void, and define a View as its only parameter.
