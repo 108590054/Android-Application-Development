@@ -1,0 +1,19 @@
+Homework 9-1
+1.Which resource qualifier is used most frequently to select for tablets? Choose one:
+Ans:Smallest screen width
+
+2.Which folder would hold the strings.xml file for translation into French for Canada? Choose one:
+Ans:res/values-fr-rCA/
+
+3.Which folder is for XML files that contain strings, integers, and colors? Choose one:
+Ans:res/values
+
+Homework 9-2
+1.Which steps do you perform to test a View interaction, and in what order? Choose one:
+Ans:Match a View, perform an action, and assert and verify the result.
+
+2.Which of the following annotations enables an instrumented JUnit 4 test class? Choose one:
+Ans:@RunWith
+
+3.Which method would you use to find a child View in an AdapterView? Choose one:
+Ans:onView().perform() to perform a click on the current View
