@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="httpSpinner">
+    <array name="httpArray">
+        <item>https://</item>
+        <item>http://</item>
+    </array>
+</resources>
